@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Proyecto desplegado en Railway"
+    return "CD funcionando en Railway"
 
 if __name__ == "__main__":
     app.run()
